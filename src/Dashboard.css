@@ -1,0 +1,34 @@
+.dash{
+    margin-top: 5%;
+    padding: 10px;
+    font-size: 20;
+    color:white;
+    background-color: maroon;
+    text-align: center;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 30px;
+}
+.request{
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    padding: 15px;
+    border-color: grey;
+    border-width: 2px;
+    width: 95%;
+    border-style: solid;
+    gap:4%;
+
+
+}
+.pending{
+    font-size: 25px;
+    text-decoration: underline;
+    color:#0563C1;
+}
+.pendText{
+    font-size: 20px;
+
+}

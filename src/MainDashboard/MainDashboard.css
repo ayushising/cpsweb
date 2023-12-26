@@ -1,0 +1,42 @@
+.dash{
+    margin-top: 5%;
+    padding: 10px;
+    font-size: 20;
+    color:white;
+    background-color: maroon;
+    text-align: center;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 10%;
+}
+.tabs-container {
+    display: flex;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 6px;
+    /* margin: 5px; */
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #130f0f;
+    box-sizing: border-box;
+  }
+  
+  .tab.active {
+    background-color: #771212;
+    font-weight: bold;
+    color:white;
+  }
+  
+  .tab-content {
+    margin-top: 10px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .tab {
+      flex: 100%; /* Full width on smaller screens */
+    }
+  }
+  
